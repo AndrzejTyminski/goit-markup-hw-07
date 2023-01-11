@@ -320,13 +320,14 @@ img {
   flex-direction: column;
 }
 
-.header__apkFLEX {
+.header__apk {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
   padding-inline-start: 0px;
   gap: 50px;
   align-items: center;
+  margin-left: 93px;
 }
 
 .bottom-line {
