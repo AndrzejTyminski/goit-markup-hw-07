@@ -32,7 +32,7 @@ body {
   transition: box-shadow, background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-2th:hover {
+.mainBanner__button2th:hover {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   /*border-radius: 4px;*/
@@ -79,7 +79,7 @@ body {
   background: var(--blue-hover);
   right: 50%;
   transform: translatex(50%);
-  bottom: -33px;
+  bottom: -26px;
   border-radius: 2px;
 }
 
@@ -126,6 +126,10 @@ li:last-child {
   color: var(--blue-hover);
 }
 
+.headerLogo__black {
+  color: var(--dark-black);
+}
+
 .footerStyle__blue {
   color: var(--blue-hover);
 }
@@ -133,14 +137,17 @@ li:last-child {
 .header__emailTelFlex {
   display: flex;
   padding-left: 0px;
+  margin-top: 32px;
+  align-items:baseline;
 }
 
 .header__grayLinks {
   color: var(--gray);
   text-decoration: none;
   font-size: 14px;
-  padding: 32px 0 32px 0px;
+  /* padding: 32px 0 32px 0px; */
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .header__grayLinks--paddingLeft {
@@ -372,6 +379,7 @@ img {
 
 .header__svgMargin {
   margin-right: 10px;
+  margin-left: 32px;
 }
 
 .tel:hover {
