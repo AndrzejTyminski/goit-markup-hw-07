@@ -138,7 +138,7 @@ li:last-child {
   display: flex;
   padding-left: 0px;
   margin-top: 32px;
-  align-items:baseline;
+  align-items: baseline;
 }
 
 .header__grayLinks {
@@ -147,15 +147,15 @@ li:last-child {
   font-size: 14px;
   /* padding: 32px 0 32px 0px; */
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
+.header__grayLinks:hover {
+  color: var(--blue-hover);
+  fill: var(--blue-hover);
 }
 
 .header__grayLinks--paddingLeft {
   padding-left: 30px;
-}
-
-.header__gray-links:hover {
-  color: var(--blue-hover);
 }
 
 .flex-3x__textUnderPhoto {
@@ -380,6 +380,7 @@ img {
 .header__svgMargin {
   margin-right: 10px;
   margin-left: 32px;
+
 }
 
 .tel:hover {
