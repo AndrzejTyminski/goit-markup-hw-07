@@ -79,7 +79,7 @@ body {
   background: var(--blue-hover);
   right: 50%;
   transform: translatex(50%);
-  bottom: -32px;
+  bottom: -33px;
   border-radius: 2px;
 }
 
@@ -312,6 +312,7 @@ img {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  margin-top: 24px;
 }
 
 .mainBanner {
