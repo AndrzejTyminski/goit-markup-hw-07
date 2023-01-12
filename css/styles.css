@@ -771,7 +771,7 @@ textarea::placeholder {
 
 /*check box before*/
 
-.custom-check-box {
+.modal__customCheckBox {
   position: relative;
   display: flex;
   align-items: center;
@@ -807,7 +807,7 @@ textarea::placeholder {
   margin-bottom: 20px;
 }
 
-.regulamin-font {
+.modal__regulaminFont {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -828,11 +828,11 @@ textarea::placeholder {
   color: var(--blue-hover);
 }
 
-.margin-left {
+.modal__regulaminFont--marginLeft {
   margin-left: 8px;
 }
 
-.button-modal-submit {
+.modal__buttonModalSubmit {
   width: 200px;
   height: 50px;
   background: var(--blue-hover);
@@ -843,7 +843,7 @@ textarea::placeholder {
   margin-top: 30px;
 }
 
-.modal-bottom-flex {
+.modal__bottomFlex {
   display: flex;
   flex-direction: column;
   align-items: center;
