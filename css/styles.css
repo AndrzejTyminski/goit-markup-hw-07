@@ -625,9 +625,9 @@ img {
   color: #fff;
 }
 
-.input-email:focus {
+/* .input-email:focus {
   border: 1px solid var(--blue-hover);
-}
+} */
 
 .newsletterInput__buttonEmail {
   position: relative;
@@ -658,14 +658,14 @@ img {
   align-content: space-around;
 }
 
-.svg-sign-up {
+.newsletterInput__svgSignUp {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   left: 74%;
 }
 
-input::placeholder {
+.newsletterInput__inputEmail--placeholder::placeholder {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
