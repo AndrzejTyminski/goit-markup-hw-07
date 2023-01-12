@@ -571,52 +571,53 @@
     </footer>
 
     <div class="backdrop is-hidden" data-modal>
+
       <div class="modal">
    
-        <button type="button" class="close-btn" data-modal-close>X</button>
-           <div class="form-center">
+        <button type="button" class="modal__closeBtn" data-modal-close>X</button>
+           <div class="modal__formCenter">
                 <p>Zostaw swoje dane w formularzu poniżej</p>
 
-                <div class="field" role="group" aria-labelledby="first-name">
+                <div class="modal__field" role="group" aria-labelledby="first-name">
                  <form name="first-name" autocomplete="on" method="post"> 
-                  <label for="first-name">Imie</label>
-                  <div class="svg-relative">
-                    <input class="fullwidth"type="text" id="first-name"/>
-                    <svg class="svg-input" width="12" height="12">
+                  <label class="modal__fieldLabel" for="first-name">Imie</label>
+                  <div class="modal__svgRelative">
+                    <input class="modal__fieldInput "type="text" id="first-name"/>
+                    <svg class="modal__svgInput" width="12" height="12">
                       <use href="./images/icons.svg#imie"></use>
                     </svg>
                   </div>
                  </form>
                 </div>
 
-                <div class="field" role="group" aria-labelledby="telephone-number">
+                <div class="modal__field" role="group" aria-labelledby="telephone-number">
                   <form name="phone" autocomplete="on" method="post">
-                  <label for="telephone-number">Telefon</label>
-                    <div class="svg-relative">
-                      <input class="fullwidth" type="tel" id="telephone-number"/>
-                        <svg class="svg-input" width="13" height="13">
+                  <label class="modal__fieldLabel" for="telephone-number">Telefon</label>
+                    <div class="modal__svgRelative">
+                      <input class="modal__fieldInput" type="tel" id="telephone-number"/>
+                        <svg class="modal__svgInput" width="13" height="13">
                           <use href="./images/icons.svg#telephone"></use>
                         </svg>
                     </div>
                   </form>
                 </div>
 
-                <div class="field" role="group" aria-labelledby="email">
+                <div class="modal__field" role="group" aria-labelledby="email">
                   <form name="at-addres" autocomplete="on" method="post">
-                  <label for="email">Email</label>
-                  <div class="svg-relative">
-                    <input class="fullwidth" type="email" id="email"/>
-                      <svg class="svg-input" width="13" height="13">
+                  <label class="modal__fieldLabel" for="email">Email</label>
+                  <div class="modal__svgRelative">
+                    <input class="modal__fieldInput" type="email" id="email"/>
+                      <svg class="modal__svgInput" width="13" height="13">
                         <use href="./images/icons.svg#email"></use>
                       </svg>
                   </div>
                   </form> 
                 </div>
 
-                <div class="field bottom-texarea" role="group" aria-labelledby="komentarz">
+                <div class="modal__field modal--bottomTexarea" role="group" aria-labelledby="komentarz">
                   <form name="user-comment" method="post">
-                    <label for="comment">Komentarz</label>
-                    <textarea id="comment" placeholder="Wprowadz tekst"></textarea>
+                    <label class="modal__fieldLabel" for="comment">Komentarz</label>
+                    <textarea class="modal__textarea" id="comment" placeholder="Wprowadz tekst"></textarea>
                 
                 </div>
 
