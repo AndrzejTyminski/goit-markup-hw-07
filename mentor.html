@@ -1,0 +1,57 @@
+<header class="header-border">
+    <div class="container container--header">
+        <nav class="main-nav">
+            <a class="main-nav__logo" href="index.html"
+                ><span class="main-nav__logo main-nav__logo--blue">Web</span>Studio</a
+            >
+            <ul class="main-nav__links">
+                <li><a class="main-nav__links-item main-nav__links-item--underline" href="#">Agencja</a></li>
+                <li>
+                    <a  class="main-nav__links-item"  href="./portfolio.html">Portfolio</a>
+                </li>
+                <li><a  class="main-nav__links-item"  href="#">Kontakt</a></li>
+            </ul>
+        </nav>
+        <div class="contact-links">
+            <a class="contact-links__item href="mailto:info@devstudio.com">
+                <svg class="contact-links__icon" width="16" height="12">
+                    <use href="./images/icons.svg#icon-envelope"></use>
+                </svg>
+                info@devstudio.com</a
+            >
+            <a class="contact-links__item href="tel:+48111111111">
+                <svg class="contact-links__icon" width="16" height="16">
+                    <use
+                        href="./images/icons.svg#icon-smartphone"
+                    ></use>
+                </svg>
+                +48 111 111 111</a
+            >
+        </div>
+    </div>
+</header>
+
+
+
+
++++++++++++
+
+
+
+"Cześć :) Oczywiście, że tak :)
+
+No jest trochę do poprawy :)
+
+Ogólnie to nawet nazwy klas nie do końca są dobrze. WIdzę też, że nie do końca zrozumiałeś co jest blokiem, co elementem a co modyfikatorem.
+
+Wiesz co, chyba ostatnio udało mi się całkiem fajnie wytłumaczyć jednej osobie na przykładzie headera, co powinno być czym, także pozwole sobie Tobie na slacku podesłać tą wiadomość, przeczytaj ją i spróbuj zrozumieć :)
+
+I ogólnie podczas tworzenia klas w CSS raczej nie stosujemy camelCase :)
+
+W skrócie powinno to wyglądać np. tak:
+
+"header", "main-header", "site-header" ----- to przykładowe nazwy bloków
+"header__nav", "main-header__links-list", "site-header__icon" --- to przykładowe nazwy elementów. Jak widzisz w pierwszej części mamy potwórzoną nazwę bloku, którego dotyczą a po __ nazwę elementu :)
+"header__nav header__nav--blue", "main-header__link main-header__link--active", "site-header__logo site-header__logo--blue" - przykładowe nazwy modyfikatorów. Zwróć uwagę, że przy modyfikatorze zawsze dodajemy element, lub blok którego dotyczą. Modyfikatory nigdy nie mogą być same w klasie :)
+
+To w skrócie, a na slacku już Ci podsyłam wiadomość trochę bardziej obszerną, także miłego czytania :)"
