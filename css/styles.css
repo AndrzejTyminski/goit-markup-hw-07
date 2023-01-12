@@ -724,18 +724,15 @@ img {
   margin-bottom: 4px;
 }
 
-/* kontener z pozycjia relatywna */
 .modal__svgRelative {
   position: relative;
   margin-bottom: 10px;
   border-radius: 4px;
   width: 100%;
+  fill: var(--gray);
 }
 
-/*hover&focus for input textarea*/
-
-/* input:hover + .svg-input */
-.modal__svgInput:hover {
+.modal__svgRelative:hover {
   fill: var(--blue-hover);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
