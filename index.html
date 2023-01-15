@@ -31,71 +31,58 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="bottom-line">
+    <header class="header-line">
       <div class="container">
-        <div class="header">
-          
-          <div class="header__logoAPK">
-           
-            <a class="headerLogo" href="./index.html"
-            ><span class="headerLogo__blue">Web</span
-            ><span class="headerLogo__black">Studio</span></a
-          >
-
+        <div class="main-nav">
+          <div class="main-nav__logo-apk">
+            <a class="main-nav__logo" href="./index.html"
+            ><span class="main-nav__logo main-nav__logo--blue">Web</span
+            ><span class="main-nav__logo main-nav__logo--black">Studio</span></a>
             <nav>
-              <ul class="header__apk">
+              <ul class="main-nav__apk">
                 <li>
-                  <a class="navigation navigation-bar" href="./index.html">Agencja</a>
+                  <a class="main-nav__apk-item main-nav__apk-items--bar" href="./index.html">Agencja</a>
                 </li>
                 <li>
-                  <a class="navigation" href="./portfolio.html">Porfolio</a>
+                  <a class="main-nav__apk-item" href="./portfolio.html">Porfolio</a>
                 </li>
                 <li>
-                  <a class="navigation" href="#">Kontakt</a>
+                  <a class="main-nav__apk-item" href="#">Kontakt</a>
                 </li>
               </ul>
             </nav>
-
-
           </div>
-
-          <ul class="header__emailTelFlex">
+          <ul class="main-nav__contacts">
             <li>
-
                 <a
-                  class="header__grayLinks" href="mailto:info@devstudio.com">
-                  <svg class="header__svgMargin" width="16" height="12">
+                  class="main-nav__contacts-data" href="mailto:info@devstudio.com">
+                  <svg class="main-nav__contacts-icon" width="16" height="12">
                     <use href="./images/icons.svg#icon-envelope"></use>
                   </svg>
                   info@devstudio.com</a>
-   
             </li>
-
             <li>
- 
-                <a class="header__grayLinks" href="tel:+48111111111">
-                  <svg class="header__svgMargin" width="10" height="16">
+                <a class="main-nav__contacts-data" href="tel:+48111111111">
+                  <svg class="main-nav__contacts-icon" width="10" height="16">
                     <use href="./images/icons.svg#icon-smartphone"></use>
                   </svg>
                   +48 111 111 111</a>
-
             </li>
           </ul>
-
         </div>
       </div>
     </header>
   
 
     <main>
-      <section class="section section--imageOverlay ">
+      <section class="section section--image-overlay ">
         <div class="container">
-          <section class="mainBanner">
-            <h1 class="mainBanner__textMainBanner">
+          <section class="main-banner">
+            <h1 class="main-banner__text">
               EFEKTYWNE ROZWIĄZANIA <br />
               DLA WASZEGO BIZNESU
             </h1>
-            <button class="mainBanner__button2th" type="button" data-modal-open>
+            <button class="main-banner__btn" type="button" data-modal-open>
               Zamów usługę
             </button>
           </section>
@@ -105,7 +92,7 @@
       
       <section class="section">
         <div class="container">
-          <ul class="loremFlex">
+          <ul class="lorem-flex">
             <li>
               <svg
                 version="1.1"
@@ -126,8 +113,8 @@
                 ></use>
               </svg>
 
-              <h3 class="loremFlex__loremipsumh3">lorem ipsum</h3>
-              <p class="loremFlex__text">
+              <h3 class="lorem-flex__h3">lorem ipsum</h3>
+              <p class="lorem-flex__text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Quibusdam culpa quisquam natus velit, sit totam provident
                 placeat eligendi qui quae ex voluptatem voluptates ipsa ipsam,
@@ -153,8 +140,8 @@
                   href="./images/icons.svg#icon-clock-1"
                 ></use>
               </svg>
-              <h3 class="loremFlex__loremipsumh3">lorem ipsum</h3>
-              <p class="loremFlex__text">
+              <h3 class="lorem-flex__h3">lorem ipsum</h3>
+              <p class="lorem-flex__text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Quibusdam culpa quisquam natus velit, sit totam provident
                 placeat eligendi qui quae ex voluptatem voluptates ipsa ipsam,
@@ -173,8 +160,8 @@
                   href="./images/icons.svg#icon-diagram-1"
                 ></use>
               </svg>
-              <h3 class="loremFlex__loremipsumh3">lorem ipsum</h3>
-              <p class="loremFlex__text">
+              <h3 class="lorem-flex__h3">lorem ipsum</h3>
+              <p class="lorem-flex__text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Quibusdam culpa quisquam natus velit, sit totam provident
                 placeat eligendi qui quae ex voluptatem voluptates ipsa ipsam,
@@ -193,8 +180,8 @@
                   href="./images/icons.svg#icon-astronaut-1"
                 ></use>
               </svg>
-              <h3 class="loremFlex__loremipsumh3">lorem ipsum</h3>
-              <p class="loremFlex__text">
+              <h3 class="lorem-flex__h3">lorem ipsum</h3>
+              <p class="lorem-flex__text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Quibusdam culpa quisquam natus velit, sit totam provident
                 placeat eligendi qui quae ex voluptatem voluptates ipsa ipsam,
@@ -205,36 +192,36 @@
         </div>
       </section>
       
-      <section class="section section--padTop0">
+      <section class="section section--padding">
         <div class="container">
-          <h2 class="section--center">Czym się zajmujemy</h2>
-          <ul class="flex-3x">
-            <li class="flex-3x__imgRelative">
+          <h2 class="section-title">Czym się zajmujemy</h2>
+          <ul class="img-row">
+            <li class="what-we-do__relative">
               <img
                 src="images/box1.jpg"
                 width="370"
                 height="294"
                 alt="office desk"
               />
-              <p class="flex-3x__imgAbsolute">aplikacje komputerowe</p>
+              <p class="what-we-do__absolute">aplikacje komputerowe</p>
             </li>
-            <li class="flex-3x__imgRelative">
+            <li class="what-we-do__relative">
               <img
                 src="images/box2.jpg"
                 width="370"
                 height="294"
                 alt="mobile mark up on notebook"
               />
-              <p class="flex-3x__imgAbsolute">aplikacje mobilne</p>
+              <p class="what-we-do__absolute">aplikacje mobilne</p>
             </li>
-            <li class="flex-3x__imgRelative">
+            <li class="what-we-do__relative">
               <img
                 src="images/box3.jpg"
                 width="370"
                 height="294"
                 alt="color cheker on tablet"
               />
-              <p class="flex-3x__imgAbsolute">rozwiazania graficzne</p>
+              <p class="what-we-do__absolute">rozwiazania graficzne</p>
             </li>
           </ul>
         </div>
@@ -242,44 +229,44 @@
 
       <!--nasz zespół-->
 
-      <section class="section section--lightGray">
+      <section class="section section--bg-color">
         <div class="container">
-          <h2 class="section--center">Nasz zespół</h2>
-          <ul class="flex-3x">
+          <h2 class="section-title">Nasz zespół</h2>
+          <ul class="img-row">
             <li>
-              <figure class="flex-3x__shadow">
+              <figure class="member">
                 <img
                   src="images/img(0).jpg"
                   height="260"
                   width="270"
                   alt="John Doe"
                 />
-                <figcaption class="flex-3x__white">
-                  <h3 class="flex-3x__textUnderPhoto">
+                <figcaption class="member__bg-color">
+                  <h3 class="member__name">
                     John Doe
                   </h3>
-                  <p class="flex-3x__figcaption-2th">
+                  <p class="member__position">
                     Product Designer
                   </p>
 
-                  <div class="flex-3x__media">
-                    <a class="flex-3x__mediaIkon" href="#">
+                  <div class="member__social-media">
+                    <a class="member__social-media-icon" href="#">
                       <svg  width="20" height="20">
                         <use href="./images/icons.svg#icon-instagram-2"></use>
                       </svg>
                     </a>
 
-                    <a class="flex-3x__mediaIkon" href="#">
+                    <a class="member__social-media-icon" href="#">
                       <svg width="20" height="20">
                         <use href="./images/icons.svg#icon-twitter-1"></use>
                       </svg>
                     </a>
-                    <a class="flex-3x__mediaIkon" href="#">
+                    <a class="member__social-media-icon" href="#">
                       <svg width="20" height="20">
                         <use href="./images/icons.svg#icon-facebook-1"></use>
                       </svg>
                     </a>
-                    <a class="flex-3x__mediaIkon" href="#">
+                    <a class="member__social-media-icon" href="#">
                       <svg width="20" height="20">
                         <use href="./images/icons.svg#icon-linkedin-1"></use>
                       </svg>
