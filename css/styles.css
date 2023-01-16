@@ -32,8 +32,7 @@ body {
   transition: box-shadow, background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.main-banner__btn--margin
-{
+.main-banner__btn--margin {
   margin-bottom: 0;
 }
 
@@ -114,9 +113,9 @@ li:last-child {
   text-decoration: none;
 }
 
-.headerLogo:visited {
+/* .headerLogo:visited {
   color: black;
-}
+} */
 
 .main-nav__logo--blue {
   color: var(--blue-hover);
@@ -168,11 +167,9 @@ li:last-child {
   text-align: center;
 }
 
-.member__name--left
-{
+.member__name--left {
   text-align: left;
   padding-left: 24px;
-
 }
 
 .member__position {
@@ -186,8 +183,7 @@ li:last-child {
   padding-bottom: 9px;
 }
 
-.member__position--left
-{
+.member__position--left {
   text-align: left;
   padding-left: 24px;
 }
@@ -240,11 +236,11 @@ ul {
   margin: 0 auto;
 }
 
-.padding0px {
+/* .padding0px {
   padding-bottom: 0px;
-}
+} */
 
-.flex9x9 {
+/* .flex9x9 {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -252,16 +248,16 @@ ul {
   padding: 0;
   margin: 0;
   align-content: stretch;
-}
+} */
 
-figure {
+.img-row__margin {
   margin: 0;
 }
 
-.flex9x9 figure:hover {
+/* .flex9x9 figure:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+} */
 
 /* aimg {
   display: block;
@@ -302,13 +298,14 @@ figure {
   height: 80px;
 }
 
-.baground {
+/* .baground {
   background-color: var(--blue-hover);
-}
+} */
 
 .member {
   background-color: #ffffff;
   padding: 0;
+  margin: 0;
 }
 
 .member__bg-color {
@@ -323,10 +320,12 @@ figure {
   border-right: 1px #eee solid;
 }
 
-.member__bg-color--light-shadow
-{
+.member__bg-color--light-shadow {
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
-  border: 1px solid #EEEEEE;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  border-top: 0px solid #eee;
 }
 .member__social-media {
   display: flex;
@@ -393,12 +392,12 @@ figure {
   outline: 1px solid var(--blue-hover);
 }
 
-.box {
+.img-row__box {
   position: relative;
   overflow: hidden;
   display: block;
 }
-.overlay {
+.img-row__overlay {
   position: absolute;
   box-sizing: border-box;
   top: 0;
@@ -416,7 +415,7 @@ figure {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.box:hover .overlay {
+.img-row__box:hover .img-row__overlay {
   transform: translatey(0);
 }
 
@@ -733,6 +732,9 @@ textarea {
 .footer__address {
   padding: 0;
   margin: 0;
+}
+
+.footer__address--margin {
   margin-top: 20px;
 }
 
