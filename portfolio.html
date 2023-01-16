@@ -16,53 +16,42 @@
     />
   </head>
   <body>
-    <header class="bottom-line">
+    <header class="header-line">
       <div class="container">
-        <div class="header">
-          <div class="header__logoAPK">
-            <a class="headerLogo" href="./index.html"
-              ><span class="headerLogo__blue">Web</span
-              ><span class="headerLogo__black">Studio</span></a
-            >
-
+        <div class="main-nav">
+          <div class="main-nav__logo-apk">
+            <a class="main-nav__logo" href="./index.html"
+            ><span class="main-nav__logo main-nav__logo--blue">Web</span
+            ><span class="main-nav__logo main-nav__logo--black">Studio</span></a>
             <nav>
-              <ul class="header__apk">
+              <ul class="main-nav__apk">
                 <li>
-                  <a class="navigation" href="./index.html">Agencja</a>
+                  <a class="main-nav__apk-item " href="./index.html">Agencja</a>
                 </li>
                 <li>
-                  <a class="navigation navigation-bar" href="./portfolio.html"
-                    >Porfolio</a
-                  >
+                  <a class="main-nav__apk-item main-nav__apk-item--bar" href="./portfolio.html">Porfolio</a>
                 </li>
                 <li>
-                  <a class="navigation" href="#">Kontakt</a>
+                  <a class="main-nav__apk-item" href="#">Kontakt</a>
                 </li>
               </ul>
             </nav>
           </div>
-
-          <ul class="header__emailTelFlex">
+          <ul class="main-nav__contacts">
             <li>
-              <!-- <div class="header__tel"> -->
-              <a class="header__grayLinks" href="mailto:info@devstudio.com">
-                <svg class="header__svgMargin" width="16" height="12">
-                  <use href="./images/icons.svg#icon-envelope"></use>
-                </svg>
-                info@devstudio.com</a
-              >
-              <!-- </div> -->
+                <a
+                  class="main-nav__contacts-data" href="mailto:info@devstudio.com">
+                  <svg class="main-nav__contacts-icon" width="16" height="12">
+                    <use href="./images/icons.svg#icon-envelope"></use>
+                  </svg>
+                  info@devstudio.com</a>
             </li>
-
             <li>
-              <!-- <div class="header__tel"> -->
-              <a class="header__grayLinks" href="tel:+48111111111">
-                <svg class="header__svgMargin" width="10" height="16">
-                  <use href="./images/icons.svg#icon-smartphone"></use>
-                </svg>
-                +48 111 111 111</a
-              >
-              <!-- </div> -->
+                <a class="main-nav__contacts-data" href="tel:+48111111111">
+                  <svg class="main-nav__contacts-icon" width="10" height="16">
+                    <use href="./images/icons.svg#icon-smartphone"></use>
+                  </svg>
+                  +48 111 111 111</a>
             </li>
           </ul>
         </div>
@@ -76,29 +65,29 @@
 
       <section class="section">
         <div class="container">
-          <ul class="button-flex">
+          <ul class="portfolio-btn">
             <li>
-              <button class="mainBanner__button2th margin-bottom0" type="button">
+              <button class="main-banner__btn main-banner__btn--margin" type="button">
                 Wszystkie
               </button>
             </li>
             <li>
-              <button class="mainBanner__button2th margin-bottom0" type="button">
+              <button class="main-banner__btn main-banner__btn--margin" type="button">
                 Strony
               </button>
             </li>
             <li>
-              <button class="mainBanner__button2th margin-bottom0" type="button">
+              <button class="main-banner__btn main-banner__btn--margin" type="button">
                 Aplikacje
               </button>
             </li>
             <li>
-              <button class="mainBanner__button2th margin-bottom0" type="button">
+              <button class="main-banner__btn main-banner__btn--margin" type="button">
                 Dizajn
               </button>
             </li>
             <li>
-              <button class="mainBanner__button2th margin-bottom0" type="button">
+              <button class="main-banner__btn main-banner__btn--margin" type="button">
                 Marketing
               </button>
             </li>
@@ -106,7 +95,7 @@
 
           <!--grupa zdjec 9*9-->
 
-          <ul class="flex9x9">
+          <ul class="img-row">
             <li>
               <figure>
                 <a href="#">
@@ -126,9 +115,9 @@
                   </div>
                 </a>
 
-                <figcaption>
-                  <h3 class="text-under-photo">Technocrack</h3>
-                  <p class="figcaption-2th">Strona internetowa</p>
+                <figcaption class="member__bg-color member__bg-color--light-shadow">
+                  <h3 class="member__name member__name--left">Technocrack</h3>
+                  <p class="member__position member__position--left">Strona internetowa</p>
                 </figcaption>
               </figure>
             </li>
@@ -151,11 +140,11 @@
                     </div>
                   </div></a
                 >
-                <figcaption>
-                  <h3 class="text-under-photo">
+                <figcaption class="member__bg-color member__bg-color--light-shadow">
+                  <h3 class="member__name member__name--left">
                     Grafika New Orlean vs Golden Star
                   </h3>
-                  <p class="figcaption-2th">Dizajn</p>
+                  <p class="member__position member__position--left">Dizajn</p>
                 </figcaption>
               </figure>
             </li>
@@ -177,9 +166,9 @@
                     </div>
                   </div></a
                 >
-                <figcaption>
-                  <h3 class="text-under-photo">Restauracja Seafood</h3>
-                  <p class="figcaption-2th">Aplikacja</p>
+                <figcaption class="member__bg-color member__bg-color--light-shadow">
+                  <h3 class="member__name member__name--left">Restauracja Seafood</h3>
+                  <p class="member__position member__position--left">Aplikacja</p>
                 </figcaption>
               </figure>
             </li>
@@ -201,9 +190,9 @@
                     </div>
                   </div></a
                 >
-                <figcaption>
-                  <h3 class="text-under-photo">Projekt Prime</h3>
-                  <p class="figcaption-2th">Marketing</p>
+                <figcaption class="member__bg-color member__bg-color--light-shadow" >
+                  <h3 class="member__name member__name--left">Projekt Prime</h3>
+                  <p class="member__position member__position--left">Marketing</p>
                 </figcaption>
               </figure>
             </li>
@@ -225,9 +214,9 @@
                     </div>
                   </div></a
                 >
-                <figcaption>
-                  <h3 class="text-under-photo">Projekt Boxes</h3>
-                  <p class="figcaption-2th">Aplikacja</p>
+                <figcaption class="member__bg-color member__bg-color--light-shadow">
+                  <h3 class="member__name member__name--left">Projekt Boxes</h3>
+                  <p class="member__position member__position--left">Aplikacja</p>
                 </figcaption>
               </figure>
             </li>
@@ -250,9 +239,9 @@
                     </div>
                   </div></a
                 >
-                <figcaption>
-                  <h3 class="text-under-photo">Inspiration has no Borders</h3>
-                  <p class="figcaption-2th">Strona internetowa</p>
+                <figcaption class="member__bg-color member__bg-color--light-shadow">
+                  <h3 class="member__name member__name--left">Inspiration has no Borders</h3>
+                  <p class="member__position member__position--left">Strona internetowa</p>
                 </figcaption>
               </figure>
             </li>
@@ -274,9 +263,9 @@
                     </div>
                   </div></a
                 >
-                <figcaption>
-                  <h3 class="text-under-photo">Magazyn Limited Edition</h3>
-                  <p class="figcaption-2th">Dizajn</p>
+                <figcaption class="member__bg-color member__bg-color--light-shadow">
+                  <h3 class="member__name member__name--left">Magazyn Limited Edition</h3>
+                  <p class="member__position member__position--left">Dizajn</p>
                 </figcaption>
               </figure>
             </li>
@@ -298,9 +287,9 @@
                     </div>
                   </div></a
                 >
-                <figcaption>
-                  <h3 class="text-under-photo">Projekt LAB</h3>
-                  <p class="figcaption-2th">Marketing</p>
+                <figcaption class="member__bg-color member__bg-color--light-shadow">
+                  <h3 class="member__name member__name--left">Projekt LAB</h3>
+                  <p class="member__position member__position--left">Marketing</p>
                 </figcaption>
               </figure>
             </li>
@@ -322,9 +311,9 @@
                     </div>
                   </div></a
                 >
-                <figcaption>
-                  <h3 class="text-under-photo">Growing Bussines</h3>
-                  <p class="figcaption-2th">Aplikacja</p>
+                <figcaption class="member__bg-color member__bg-color--light-shadow">
+                  <h3 class="member__name member__name--left">Growing Bussines</h3>
+                  <p class="member__position member__position--left">Aplikacja</p>
                 </figcaption>
               </figure>
             </li>
@@ -334,83 +323,83 @@
     </main>
 
     <!--stopka strony-->
-    <footer class="footerStyle footerStyle--paddingTopBottom">
+    <footer class="footer">
       <div class="container">
-        <div class="footer3x">
+        <div class="footer__items">
           <div>
-            <a class="headerLogo" href="./index.html"
-              ><span class="headerLogo__blue">Web</span
-              ><span class="headerLogo__white">Studio</span></a
+            <a class="main-nav__logo" href="./index.html"
+              ><span class="main-nav__logo main-nav__logo--blue">Web</span
+              ><span class="main-nav__logo main-nav__logo--white">Studio</span></a
             >
 
             <address>
-              <ul class="address address--margin">
+              <ul class="footer__address">
                 <li>
                   <a
-                    class="address__city"
+                    class="footer__address-city"
                     href="https://goo.gl/maps/EFfzQXjzQr1CS8pH7"
                     >m. Warszawa, Aleje Jerozolimskie 21</a
                   >
                 </li>
                 <li>
                   <a
-                    class="address__email"
+                    class="footer__email"
                     href="mailto:info@example.com"
                     >info@example.com</a
                   >
                 </li>
                 <li>
-                  <a class="address__tel" href="tel:+48111111111"
+                  <a class="footer__tel" href="tel:+48111111111"
                     >+48 111 111 111</a
                   >
                 </li>
               </ul>
             </address>
           </div>
-          <div class="footerSocial footerSocial--margin">
-            <h3 class="footerSocial__socialFooterh3">dołącz do nas</h3>
-            <div class="footerSocial__mediaFlexF">
-              <a class="footerSocial__mediaFlexA" href="#">
+          <div class="footer__social">
+            <h3 class="footer__h3">dołącz do nas</h3>
+            <div class="footer__social-media">
+              <a class="footer__social-icon" href="#">
                 <svg width="20" height="20">
                   <use href="./images/icons.svg#icon-instagram-2"></use>
                 </svg>
               </a>
 
-              <a class="footerSocial__mediaFlexA" href="#">
+              <a class="footer__social-icon" href="#">
                 <svg width="20" height="20">
                   <use href="./images/icons.svg#icon-twitter-1"></use>
                 </svg>
               </a>
-              <a class="footerSocial__mediaFlexA" href="#">
+              <a class="footer__social-icon" href="#">
                 <svg width="20" height="20">
                   <use href="./images/icons.svg#icon-facebook-1"></use>
                 </svg>
               </a>
-              <a  class="footerSocial__mediaFlexA" href="#">
+              <a  class="footer__social-icon" href="#">
                 <svg width="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin-1"></use>
                 </svg>
               </a>
             </div>
           </div>
-          <div class="newsletterInput newsletterInput--margin">
-            <h3 class="newsletterInput__signUpNewsletter">Zapisz się do newslettera</h3>
+          <div class="footer__newsletter">
+            <h3 class="footer__h3">Zapisz się do newslettera</h3>
 
             <form name="user-email-newsletter" autocomplete="on" method="post">
               
-              <div class="newsletterInput__emailFlex">
+              <div class="footer__newsletter-wrapper">
               <label for="user-email"></label>
-              <input
-                class="newsletterInput__inputEmail"
+              <input 
+                class="footer__email-input footer__email-input--placeholder"
                 type="email"
                 id="user-email"
                 placeholder="E-mail"
               />
             </form>
-              <button class="newsletterInput__buttonEmail" type="submit">
+              <button class="footer__btn-email" type="submit">
                 Zapisz się
                 <svg
-                  class="svg-sign-up"
+                  class="footer__svgSignUp"
                   version="1.1"
                   xmlns="http://www.w3.org/2000/svg"
                   xmlns:xlink="http://www.w3.org/1999/xlink"
