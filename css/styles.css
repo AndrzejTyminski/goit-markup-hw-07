@@ -190,7 +190,6 @@ body {
   padding-left: 24px;
 }
 
-
 .main-banner__text {
   font-family: roboto;
   font-style: normal;
@@ -256,10 +255,6 @@ body {
 /* .flex9x9 figure:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-} */
-
-/* aimg {
-  display: block;
 } */
 
 .main-nav {
@@ -395,6 +390,11 @@ body {
   position: relative;
   overflow: hidden;
   display: block;
+  /* bottom: -4px; */
+}
+
+.img-row__vertical-align {
+  vertical-align: bottom;
 }
 .img-row__overlay {
   position: absolute;
@@ -509,9 +509,13 @@ body {
   padding: 27px;
   letter-spacing: 0.03em;
   background-color: rgba(47, 48, 58, 0.8);
-  bottom: 0;
   width: 100%;
+  top: 75%;
 }
+
+/* .img-row__overlay{
+  border: 2px solid red;
+} */
 
 /* modal form */
 
@@ -829,7 +833,7 @@ textarea {
   background-color: var(--blue-hover);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  font-weight: 700;
+  font-weight: 700;§
   letter-spacing: 0.06em;
   color: #fff;
   width: 200px;
@@ -837,6 +841,7 @@ textarea {
   text-align: left;
   padding-left: 42px;
   border: 0px;
+  font-size: 16px;
 }
 
 /* .newsletterInput__button-email:focus {
