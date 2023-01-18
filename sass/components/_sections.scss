@@ -1,6 +1,33 @@
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
+.container 
+{
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
   
+.section
+{
+  padding-bottom: 94px;
+  padding-top: 94px;
+
+  &--bg-color 
+  {
+    background-color: $light-gray;
+  }
+
+  &--padding 
+  {
+    padding-top: 0;
+  }
+
+  &--image-overlay 
+  {
+  background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/img-overlay.jpeg");
+  max-width: 1600px;
+  margin: 0 auto;
+  }
+}

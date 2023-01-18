@@ -1,0 +1,39 @@
+.main-banner {
+  display: flex;
+  flex-direction: column;
+
+  &__text {
+    font-family: roboto;
+    font-style: normal;
+    color: $white;
+    font-weight: 900;
+    text-align: center;
+    font-size: 44px;
+    margin: 0px;
+    padding-top: 121px;
+    margin-bottom: 30px;
+  }
+
+  &__btn {
+    color: var(--dark-black);
+    background-color: $light-gray;
+    box-sizing: border-box;
+    height: 38px;
+    padding: 0 24px;
+    border: none;
+    border-radius: 0.2em;
+    font-size: 16px;
+    cursor: pointer;
+    line-height: 1.62;
+    font-weight: 500;
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 121px;
+    transition: box-shadow, background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover {
+      box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+        0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+      background-color: $blue-hover;
+    }
+  }
+}

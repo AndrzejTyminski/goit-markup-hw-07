@@ -1,18 +1,24 @@
 @import "./utils/vars";
 @import "./components/sections";
 @import "./components/navigation";
+@import "./components/mainbanner";
+@import "./components/lorem4x";
+@import "./components/whatwedo";
+@import "./components/members";
+
 @import "./components/footer";
 @import "./components/modal";
 
 body {
-    font-family: "Roboto", sans-serif;
-    color: $dark-black;
-    margin: 0;
-  }
+  font-family: "Roboto", sans-serif;
+  color: $dark-black;
+  margin: 0;
+}
 
-
-
-  
-
-
-  
+.section-title
+{
+  text-align: center;
+  padding-bottom: 50px;
+  margin: 0;
+  font-size: 36px;
+}

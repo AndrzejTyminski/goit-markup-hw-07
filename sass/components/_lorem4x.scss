@@ -1,0 +1,30 @@
+.img-row
+{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 0 15px;
+    margin: 0;
+    justify-content: space-around;
+    list-style: none;
+
+        &--nowrap
+        {
+            flex-wrap: nowrap;
+        }
+
+        &__h3
+        {
+            font-size: 14px;
+            line-height: 1.14;
+            text-transform: uppercase;
+            margin-top: 30px;
+        }
+
+        &__text
+        {
+            color: $gray;
+            font-size: 14px;
+            line-height: 1.71;
+        }
+    }

@@ -1,0 +1,26 @@
+.section-title {
+  text-align: center;
+  padding-bottom: 50px;
+  margin: 0;
+  font-size: 36px;
+}
+
+.relative {
+  position: relative;
+}
+
+.what-we-do {
+  position: absolute;
+  color: $white;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 27px;
+  letter-spacing: 0.03em;
+  background-color: $bcg-c;
+  width: 100%;
+  top: 75%;
+}
