@@ -127,4 +127,11 @@
     border: 0px;
     font-size: 16px;
   }
+
+  &__svgSignUp {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 74%;
+  }
 }
