@@ -5,6 +5,7 @@
 @import "./components/lorem4x";
 @import "./components/whatwedo";
 @import "./components/members";
+@import "./components/our-customers";
 
 @import "./components/footer";
 @import "./components/modal";
@@ -15,10 +16,14 @@ body {
   margin: 0;
 }
 
-.section-title
-{
+.section-title {
   text-align: center;
   padding-bottom: 50px;
   margin: 0;
   font-size: 36px;
+}
+
+ul {
+  list-style: none;
+  padding-inline-start: 0px;
 }
