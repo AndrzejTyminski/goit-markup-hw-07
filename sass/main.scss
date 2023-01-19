@@ -8,6 +8,7 @@
 @import "./components/our-customers";
 @import "./components/footer";
 @import "./components/modal";
+@import "./components/portfolio";
 
 body {
   font-family: "Roboto", sans-serif;
@@ -15,10 +16,7 @@ body {
   margin: 0;
 }
 
-
 ul {
   list-style: none;
   padding-inline-start: 0px;
 }
-
-
