@@ -1,110 +1,99 @@
-.header-line
-    {
-    border-bottom: 1px solid #ececec;
-    height: 80px;
-    }
+.header-line {
+  border-bottom: 1px solid #ececec;
+  height: 80px;
+}
 
-.main-nav 
-    {
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo-apk {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-
-        &__logo-apk
-        {
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-            margin-top: 24px;  
-        }
-
-        &__logo
-        {
-        font-family: "Raleway", sans-serif;
-        font-weight: bold;
-        font-size: 26px;
-        text-decoration: none;
-
-            &--blue
-            {
-                color: $blue-hover;
-            }
-
-            &--black
-            {
-                color: $dark-black;
-            }
-
-            &--white
-            {
-                color: $light-gray;
-            }
-        }
-
-        &__apk
-        {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0;
-        padding-inline-start: 0px;
-        gap: 50px;
-        align-items: center;
-        margin-left: 93px;
-        list-style: none;
-        }
-       
-        &__apk-item
-        {
-        text-decoration: none;
-        list-style-type: none;
-        color: inherit;
-        font-size: 14px;
-        font-weight: 500;
-        position: relative;
-        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-        &--bar::after
-        {
-            content: "";
-            position: absolute;
-            display: block;
-            width: 58px;
-            height: 4px;
-            background: $blue-hover;
-            right: 50%;
-            transform: translatex(50%);
-            bottom: -26px;
-            border-radius: 2px;
-        }
-        }
-
-        &__contacts  
-        {
-            display: flex;
-            padding-left: 0px;
-            margin-top: 32px;
-            align-items: baseline;
-            list-style: none;  
-        }
-
-        &__contacts-data 
-        {
-            color: var(--gray);
-            text-decoration: none;
-            font-size: 14px;
-            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-            
-            &:hover
-            {
-                color: $blue-hover;
-                fill: $blue-hover;
-            }
-        }
-
-        &__contacts-icon 
-        {
-            margin-right: 10px;
-            margin-left: 32px;
-        }     
+    margin-top: 24px;
   }
 
+  &__logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    text-decoration: none;
+
+    &--blue {
+      color: $blue-hover;
+    }
+
+    &--black {
+      color: $dark-black;
+    }
+
+    &--white {
+      color: $light-gray;
+    }
+  }
+
+  &__apk {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding-inline-start: 0px;
+    gap: 50px;
+    align-items: center;
+    margin-left: 93px;
+    list-style: none;
+  }
+
+  &__apk-item {
+    text-decoration: none;
+    list-style-type: none;
+    color: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &--bar::after {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 58px;
+      height: 4px;
+      background: $blue-hover;
+      right: 50%;
+      transform: translatex(50%);
+      bottom: -26px;
+      border-radius: 2px;
+    }
+  }
+
+  &__contacts {
+    display: flex;
+    padding-left: 0px;
+    margin-top: 32px;
+    align-items: baseline;
+    list-style: none;
+  }
+
+  &__contacts-data {
+    color: $gray;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+      color: $blue-hover;
+      fill: $blue-hover;
+    }
+  }
+
+  &__contacts-icon {
+    margin-right: 10px;
+    margin-left: 32px;
+    fill: $gray;
+    &:hover {
+      fill: $blue-hover;
+    }
+  }
+}

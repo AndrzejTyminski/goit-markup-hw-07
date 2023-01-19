@@ -90,7 +90,7 @@
   list-style: none;
 }
 .main-nav__contacts-data {
-  color: var(--gray);
+  color: #757575;
   text-decoration: none;
   font-size: 14px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -102,6 +102,10 @@
 .main-nav__contacts-icon {
   margin-right: 10px;
   margin-left: 32px;
+  fill: #757575;
+}
+.main-nav__contacts-icon:hover {
+  fill: #2196f3;
 }
 
 .main-banner {
@@ -448,6 +452,16 @@
   border-radius: 4px;
   transition: transform 700ms;
 }
+.modal__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
 .modal__closeBtn {
   position: absolute;
   top: 8px;
@@ -488,6 +502,9 @@
   padding-left: 42px;
   width: 100%;
 }
+.modal__fieldInput:hover {
+  fill: red;
+}
 .modal__fieldLabel {
   font-weight: 400;
   font-size: 12px;
@@ -518,12 +535,7 @@
   flex-direction: column;
   align-items: center;
 }
-.modal__customCheckBox {
-  position: relative;
-  display: flex;
-  align-items: center;
-}
-.modal__regulaminFont {
+.modal__regulamin-font {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -533,7 +545,7 @@
   color: #757575;
   white-space: pre;
 }
-.modal__regulaminFont--marginLeft {
+.modal__regulamin-font--marginLeft {
   margin-left: 8px;
 }
 .modal__regulamin-font-link:link {
@@ -556,6 +568,47 @@
   margin-top: 30px;
 }
 
+.custom-check-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.custom-check-box input[type=checkbox] {
+  background-color: #fff;
+  margin: 0;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 2px solid #666;
+  width: 16px;
+  height: 15px;
+  border-radius: 2px;
+}
+.custom-check-box svg {
+  position: absolute;
+  opacity: 0;
+  top: 4px;
+}
+.custom-check-box input[type=checkbox]:checked + svg {
+  opacity: 1;
+  background-color: #2196f3;
+  fill: #fff;
+  height: 15px;
+  width: 16px;
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.svg-relative {
+  position: relative;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  width: 100%;
+}
+.svg-relative input {
+  width: 100%;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
@@ -573,4 +626,28 @@ ul {
   list-style: none;
   -webkit-padding-start: 0px;
           padding-inline-start: 0px;
+}
+
+textarea::-moz-placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
+
+textarea:-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
+
+textarea::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
 }/*# sourceMappingURL=main.min.css.map */
